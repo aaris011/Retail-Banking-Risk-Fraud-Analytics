@@ -104,44 +104,19 @@ Final Fraud Detection Model
 
 ## Folder Structure
 
-```
-
+```text
 Retail-Banking-Risk-Fraud-Analytics/
-
 │
-
-├── data/
-
+├── docs/
 ├── notebooks/
-
-│ ├── 01_Data_Understanding.ipynb
-
-│ ├── 02_Data_Preprocessing.ipynb
-
-│ ├── 03_Exploratory_Data_Analysis.ipynb
-
-│ ├── 04_Model_Building.ipynb
-
-│ └── 05_Model_Comparison.ipynb
-
-│
-
 ├── outputs/
-
-│ ├── final_dataset.pkl
-
-│ └── fraud_detection_model.pkl
-
-│
-
+│   ├── final_dataset.pkl
+│   └── fraud_detection_model.pkl
+├── screenshots/
 ├── README.md
-
 ├── requirements.txt
-
 └── .gitignore
-
 ```
-
 ---
 
 ## Future Improvements
@@ -161,3 +136,20 @@ Retail-Banking-Risk-Fraud-Analytics/
 Computer Science Engineering Student
 
 Aspiring Data Analyst & Machine Learning Engineer
+
+## Project Screenshots
+
+### Fraud Distribution
+![Fraud Distribution](screenshots/fraud_distribution.png)
+
+### Feature Importance
+![Feature Importance](screenshots/feature_importance.png)
+
+### Confusion Matrix
+![Confusion Matrix](screenshots/confusion_matrix.png)
+
+### ROC Curve
+![ROC Curve](screenshots/roc_curve.png)
+
+### Model Comparison
+![Model Comparison](screenshots/model_comparison.png)
